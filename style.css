@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  background: url("./pexels-photo-1936299.jpeg");
+  width: 100%;
+  height: 70vh;
+}
+
+.container{
+  width: 55%;
+  color:#fff;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+
+.first-phrase{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.second-phrase{
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+.third-phrase{
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.one-button, .second-button{
+  transition: .5s;
+  border: none;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.one-button:hover{
+  transition: .5s;
+  border: none;
+  background-color: white;
+  color: #000;
+}
+
+.second-button:hover{
+  transition: .5s;
+  border: none;
+  background-color: white;
+  color: #000;
+}
